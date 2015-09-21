@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>CSS Game - Sudoku</title>
+<link rel="stylesheet" type="text/css" href="sudoku.css">
+</head>
+<body>
+<div id="box">
+<h1>Classic Sudoku Solution</h1>
+</div>
+
+<table class="table table-bordered table-striped-column" align="center">
+  <caption class="choose">Sudoku of the day Solution</caption><br>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  
+  <tbody>
+   <tr> <td>4 <td>3	<td>5 <td>2 <td>6 <td>9	<td>7 <td>8 <td>1
+   <tr> <td>6 <td>8	<td>2 <td>5 <td>7 <td>1	<td>4 <td>9 <td>3
+   <tr> <td>1 <td>9	<td>7 <td>8 <td>3 <td>4	<td>5 <td>6 <td>2
+  <tbody>
+   <tr> <td>8 <td>2	<td>6 <td>1 <td>9 <td>5	<td>3 <td>4 <td>7
+   <tr> <td>3 <td>7	<td>4 <td>6 <td>8 <td>2	<td>9 <td>1 <td>5
+   <tr> <td>9 <td>5	<td>1 <td>7 <td>4 <td>3	<td>6 <td>2 <td>8
+  <tbody>
+   <tr> <td>5 <td>1	<td>9 <td>3 <td>2 <td>6	<td>8 <td>7 <td>4
+   <tr> <td>2 <td>4	<td>8 <td>9 <td>5 <td>7	<td>1 <td>3 <td>6
+   <tr> <td>7 <td>6	<td>3 <td>4 <td>1 <td>8	<td>2 <td>5 <td>9
+</table>
+ 
+</body>
+
+</html>
