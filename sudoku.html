@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>CSS Game - Sudoku</title>
+<link rel="stylesheet" type="text/css" href="sudoku.css">
+</head>
+<body>
+<div id="box">
+<h1>Classic Sudoku</h1>
+</div>
+<div id="box">
+<table class="table table-bordered table-striped-column" align="left">
+  <caption class="choose">Sudoku of the day</caption><br>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <tbody>
+   <tr> <td><form action=""><input type="text" id="txtbox">	</form> <td><form action=""><input type="text" id="txtbox">	</form>  <td><form action=""><input type="text" id="txtbox"> <td>2 <td>6 </form><td><form action=""><input type="text" id="txtbox"></form> <td>7 <td><form action=""><input type="text" id="txtbox">	</form>  <td>1
+   <tr> <td>6  <td>8 <td> <form action=""><input type="text" id="txtbox">	</form> <td><form action=""><input type="text" id="txtbox">	</form>  <td>7 <td><form action=""><input type="text" id="txtbox">	</form>  <td> <form action=""><input type="text" id="txtbox">	</form> <td>9 <td><form action=""><input type="text" id="txtbox">	</form>
+   <tr> <td>1 <td>9  <td> <form action=""><input type="text" id="txtbox">	</form> <td> <form action=""><input type="text" id="txtbox">	</form> <td> <form action=""><input type="text" id="txtbox">	</form> <td>4	  <td>5 <td>  <form action=""><input type="text" id="txtbox">	</form><td> <form action=""><input type="text" id="txtbox">	</form>
+  <tbody>
+   <tr> <td>8 <td>2 <td> <form action=""><input type="text" id="txtbox">	</form> <td>1 <td><form action=""><input type="text" id="txtbox">	</form> <td><form action=""><input type="text" id="txtbox">	</form>  <td><form action=""><input type="text" id="txtbox">	</form> <td>4  <td><form action=""><input type="text" id="txtbox">	</form>
+   <tr> <td><form action=""><input type="text" id="txtbox">	</form>  <td> <form action=""><input type="text" id="txtbox">	</form> <td>4 <td>6 <td> <form action=""><input type="text" id="txtbox">	</form> <td> 2 <td> 9<td> <form action=""><input type="text" id="txtbox">	</form> <td><form action=""><input type="text" id="txtbox">	</form>
+   <tr> <td> <form action=""><input type="text" id="txtbox">  </form> <td>5	<td><form action=""><input type="text" id="txtbox"> </form> <td> <form action=""><input type="text" id="txtbox">	</form> <td><form action=""><input type="text" id="txtbox"> </form> <td>3 <td> <form action=""><input type="text" id="txtbox">	</form> <td>2 <td>8
+  <tbody>
+   <tr> <td> <form action=""><input type="text" id="txtbox">	</form> <td> <form action=""><input type="text" id="txtbox">	</form> <td>9 <td>3 <td> <form action=""><input type="text" id="txtbox"></form> <td> <form action=""><input type="text" id="txtbox"></form> <td> <form action=""><input type="text" id="txtbox"></form><td>7 <td> 4
+   <tr> <td><form action=""><input type="text" id="txtbox">	</form>  <td>4  <td>  <form action=""><input type="text" id="txtbox">	</form><td>  <form action=""><input type="text" id="txtbox">	</form><td>5 <td><form action=""><input type="text" id="txtbox">	</form>  <td> <form action=""><input type="text" id="txtbox"></form> <td>3 <td>6
+   <tr> <td>7 <td><form action=""><input type="text" id="txtbox">	</form>  <td>3  <td> <form action=""><input type="text" id="txtbox">	</form> <td>1  <td>8  <td> <form action=""><input type="text" id="txtbox">	</form> <td> <form action=""><input type="text" id="txtbox">	</form> <td> <form action=""><input type="text" id="txtbox">	</form>
+</table>
+ 
+<img class="displayed"src="digital_timer.jpg" alt="error"><br><br><br>
+<form action="solution.html" method="get">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="new game" onclick="alert('There is no other game!')">New Game</button>
+&nbsp;&nbsp;&nbsp;<button type="submit">Check Solution</button>
+&nbsp;&nbsp;&nbsp;<button type="reset" onclick="alert('The game will Reset!')">Reset Game</button><br><br><br>
+</form>
+ 
+</div>
+<div id="box">
+<h2>How to play Sudoku</h2>
+<p>
+Sudoku is a puzzle, more precisely a number puzzle that consists of a grid of 9x9 cells. Each of these fields must be filled filled in digits from 1 to 9. Each digit must occour only once in each of the nine columns, nine rows and each of the nine 3x3 blocks. A Sudoku has numbers preset in some fields depending on the level of difficulty of the Sudoku.
+
+To complete a Sudoku you don't have to calculate anything, instead of numbers, symbols or letters could be used as well. The only objective is therefore simply to add more and more numbers only by eliminating and combining possibilities until the whole Sudoku grid is completly filled.
+
+Generally, Sudoku is a logic-based memory game and training, perfect for the daily training of your gray matters.
+</p>
+</div>
+</body>
+
+</html>
